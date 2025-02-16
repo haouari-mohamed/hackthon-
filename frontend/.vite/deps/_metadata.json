@@ -1,0 +1,91 @@
+{
+  "hash": "af53a93d",
+  "configHash": "55976152",
+  "lockfileHash": "ae2f41e5",
+  "browserHash": "76fd1522",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "ffb38713",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "0b86f0e4",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "d18793ed",
+      "needsInterop": false
+    },
+    "react-hot-toast": {
+      "src": "../../node_modules/react-hot-toast/dist/index.mjs",
+      "file": "react-hot-toast.js",
+      "fileHash": "5c85a141",
+      "needsInterop": false
+    },
+    "react-router": {
+      "src": "../../node_modules/react-router/dist/development/index.mjs",
+      "file": "react-router.js",
+      "fileHash": "ce345975",
+      "needsInterop": false
+    },
+    "ldrs": {
+      "src": "../../node_modules/ldrs/dist/index.js",
+      "file": "ldrs.js",
+      "fileHash": "98975840",
+      "needsInterop": false
+    },
+    "@material-tailwind/react": {
+      "src": "../../node_modules/@material-tailwind/react/index.js",
+      "file": "@material-tailwind_react.js",
+      "fileHash": "67f53dbc",
+      "needsInterop": true
+    },
+    "react-icons/lu": {
+      "src": "../../node_modules/react-icons/lu/index.mjs",
+      "file": "react-icons_lu.js",
+      "fileHash": "cc70cee7",
+      "needsInterop": false
+    },
+    "react-icons/ri": {
+      "src": "../../node_modules/react-icons/ri/index.mjs",
+      "file": "react-icons_ri.js",
+      "fileHash": "c320d684",
+      "needsInterop": false
+    },
+    "react-icons/md": {
+      "src": "../../node_modules/react-icons/md/index.mjs",
+      "file": "react-icons_md.js",
+      "fileHash": "9cb2ee53",
+      "needsInterop": false
+    },
+    "react-icons/bi": {
+      "src": "../../node_modules/react-icons/bi/index.mjs",
+      "file": "react-icons_bi.js",
+      "fileHash": "8b87ac9d",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-DFF67CX6": {
+      "file": "chunk-DFF67CX6.js"
+    },
+    "chunk-CJK34UIW": {
+      "file": "chunk-CJK34UIW.js"
+    },
+    "chunk-T7OI7B56": {
+      "file": "chunk-T7OI7B56.js"
+    },
+    "chunk-W24JOBID": {
+      "file": "chunk-W24JOBID.js"
+    },
+    "chunk-EWTE5DHJ": {
+      "file": "chunk-EWTE5DHJ.js"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+services:
+  shopapi:
+    build:
+      dockerfile: Dockerfile
+    container_name: shopapi-container
+    ports:
+      - "8085:8085"
+    environment:
+      SPRING_PROFILES_ACTIVE: prod
+      SPRING_APPLICATION_NAME: benevoleKarizma
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/Karizma
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: password
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
+      SPRING_JPA_HIBERNATE_DDL_AUTO: create-drop
+    depends_on:
+      - db
+    networks:
+      - shopapi-network
+
+  db:
+    image: postgres:latest
+    container_name: postgres-db
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: Karizma
+    ports:
+      - "5432:5432"
+    networks:
+      - shopapi-network
+    command: ["postgres", "-c", "listen_addresses='*'"]
+
+volumes:
+  postgres-data:
+
+networks:
+  shopapi-network:
+    driver: bridge
